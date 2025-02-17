@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Primeira obra de arte - França</title>
+
+        <link rel="stylesheet" href="style.css">
+        <style>
+            h3{
+                text-align: left;
+                color: black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h3>França</h3>
+
+        <canvas width=325px" height="200px" border="1px solid black" border-radius="20px"></canvas>
+
+        <script>
+            var desenho = document.querySelector("canvas")
+            var pincel =  desenho.getContext('2d')
+
+            pincel.fillStyle = 'darkblue'
+            pincel.fillRect(0,0, 100,400);
+
+            pincel.fillStyle = 'white'
+            pincel.fillRect(100,0, 100,400);
+
+            pincel.fillStyle = 'red'
+            pincel.fillRect(200,0, 100,400);
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <lin href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LOGIN </title>
+    <script src="script.js"></script>
+    <style>
+
+        body{
+            background-color: #4d8a9b;
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .fundo{
+            background-image: linear-gradient(180deg, #ffffff30, transparent);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .login{
+            color: white;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            display: flex;
+            font-family:Verdana;
+        }
+
+        .entra{
+            border-radius: 20px;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            margin-bottom:10px;
+            width: 225px; 
+            height: 30px;
+            justify-content: center;
+            
+            
+        }
+        .entra input{
+            border-radius: 8px;
+            height: 100px;
+            margin-top: 10px;
+            border: none;
+            filter:contrast(400%);
+            filter:brightness(150%)
+        }
+
+        .bot{
+            margin-top: 10px;
+            margin-bottom:10px;
+            
+        }
+
+        .bot button{
+            width: 125px;
+            background-color: #e7e7d9;
+            color: #221e35;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="fundo">
+        <div class="login">
+            <h1>LOGIN</h1>
+        </div>
+    
+         <div class="entra">
+            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+            <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+        </div>
+    
+   
+        <div class="bot">
+            <button onclick="verificar()">ENTRAR</button>
+            <button onclick="cadastro()">CADASTRAR</button>
+        </div>
+    </div>
+
+</body>
+</html>

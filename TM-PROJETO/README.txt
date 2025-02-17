@@ -1,0 +1,1 @@
+Estrutura base para as telas principais do projeto, incluindo Login, Cadastro, Início, Criar e Amostra. Cada página segue um layout.
